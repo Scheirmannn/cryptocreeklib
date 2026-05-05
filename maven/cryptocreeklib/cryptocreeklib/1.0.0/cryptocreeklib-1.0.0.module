@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cryptocreeklib",
+    "module": "cryptocreeklib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cryptocreeklib-1.0.0.jar",
+          "url": "cryptocreeklib-1.0.0.jar",
+          "size": 261,
+          "sha512": "c35949577eb1f5fb5b020183f8e8b57c4059f5bb476e728e1313307fe96ec071ddbf8a1fada689c619c8dbbf969ec06b1117360f48b336399d47c99c4cf2fa89",
+          "sha256": "a5a3e12814b2e5e262e134cb80f75a2ef55dc516b425359600b87954d9b51d5a",
+          "sha1": "44794893bdc5c8333db2e01e5a8f28a4393ea7e3",
+          "md5": "6187a25ad518beabf1b1e0623fcc6ab2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "edu.wpi.first.wpilibj",
+          "module": "wpilibj-java",
+          "version": {
+            "requires": "2026.2.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpiutil",
+          "module": "wpiutil-java",
+          "version": {
+            "requires": "2026.2.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpimath",
+          "module": "wpimath-java",
+          "version": {
+            "requires": "2026.2.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.ntcore",
+          "module": "ntcore-java",
+          "version": {
+            "requires": "2026.2.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.hal",
+          "module": "hal-java",
+          "version": {
+            "requires": "2026.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cryptocreeklib-1.0.0.jar",
+          "url": "cryptocreeklib-1.0.0.jar",
+          "size": 261,
+          "sha512": "c35949577eb1f5fb5b020183f8e8b57c4059f5bb476e728e1313307fe96ec071ddbf8a1fada689c619c8dbbf969ec06b1117360f48b336399d47c99c4cf2fa89",
+          "sha256": "a5a3e12814b2e5e262e134cb80f75a2ef55dc516b425359600b87954d9b51d5a",
+          "sha1": "44794893bdc5c8333db2e01e5a8f28a4393ea7e3",
+          "md5": "6187a25ad518beabf1b1e0623fcc6ab2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cryptocreeklib-1.0.0-javadoc.jar",
+          "url": "cryptocreeklib-1.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "c35949577eb1f5fb5b020183f8e8b57c4059f5bb476e728e1313307fe96ec071ddbf8a1fada689c619c8dbbf969ec06b1117360f48b336399d47c99c4cf2fa89",
+          "sha256": "a5a3e12814b2e5e262e134cb80f75a2ef55dc516b425359600b87954d9b51d5a",
+          "sha1": "44794893bdc5c8333db2e01e5a8f28a4393ea7e3",
+          "md5": "6187a25ad518beabf1b1e0623fcc6ab2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cryptocreeklib-1.0.0-sources.jar",
+          "url": "cryptocreeklib-1.0.0-sources.jar",
+          "size": 261,
+          "sha512": "c35949577eb1f5fb5b020183f8e8b57c4059f5bb476e728e1313307fe96ec071ddbf8a1fada689c619c8dbbf969ec06b1117360f48b336399d47c99c4cf2fa89",
+          "sha256": "a5a3e12814b2e5e262e134cb80f75a2ef55dc516b425359600b87954d9b51d5a",
+          "sha1": "44794893bdc5c8333db2e01e5a8f28a4393ea7e3",
+          "md5": "6187a25ad518beabf1b1e0623fcc6ab2"
+        }
+      ]
+    }
+  ]
+}
