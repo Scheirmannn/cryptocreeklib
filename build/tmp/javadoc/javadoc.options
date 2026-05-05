@@ -1,0 +1,8 @@
+-Xdoclint:none '-quiet'
+-classpath '/Users/lucasscheirmann/Desktop/cryptocreeklib/build/classes/java/main:/Users/lucasscheirmann/Desktop/cryptocreeklib/build/resources/main:/Users/lucasscheirmann/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpilibj/wpilibj-java/2026.2.2/b8663f1e6b205195cde58c75ceb816c2fe3bed30/wpilibj-java-2026.2.2.jar:/Users/lucasscheirmann/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpiutil/wpiutil-java/2026.2.2/dd0129b29c5b1889dd415ca550770ff186cbe8be/wpiutil-java-2026.2.2.jar:/Users/lucasscheirmann/.gradle/caches/modules-2/files-2.1/edu.wpi.first.wpimath/wpimath-java/2026.2.2/7c81cad58ecee643d738e96fbe5fad93b7a2b2f5/wpimath-java-2026.2.2.jar:/Users/lucasscheirmann/.gradle/caches/modules-2/files-2.1/edu.wpi.first.ntcore/ntcore-java/2026.2.2/b8bfabbb4130af5d2751a260982ef21acb094a99/ntcore-java-2026.2.2.jar:/Users/lucasscheirmann/.gradle/caches/modules-2/files-2.1/edu.wpi.first.hal/hal-java/2026.2.2/4db8865d7a5297b2a27bd53b62e2689ea56062e2/hal-java-2026.2.2.jar'
+-d '/Users/lucasscheirmann/Desktop/cryptocreeklib/build/outputs/doc'
+-doctitle 'cryptocreeklib 1.0.0 API'
+-notimestamp 
+-quiet 
+-windowtitle 'cryptocreeklib 1.0.0 API'
+'/Users/lucasscheirmann/Desktop/cryptocreeklib/src/main/java/RobotLogger.java'
