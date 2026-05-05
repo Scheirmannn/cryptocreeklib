@@ -1,4 +1,3 @@
-package yourlib.logging;
 
 import edu.wpi.first.networktables.NetworkTable;
 import edu.wpi.first.networktables.NetworkTableInstance;
@@ -24,6 +23,7 @@ public class RobotLogger {
 
     /**
      * Creates a logger for a subsystem.
+     * 
      * @param subsystemName used as the table name e.g. "Shooter"
      */
     public RobotLogger(String subsystemName) {
@@ -37,24 +37,24 @@ public class RobotLogger {
     public void log(String key, double value) {
         table.getEntry(key).setDouble(value);
         doubleEntries
-            .computeIfAbsent(key, k -> new DoubleLogEntry(log, "/" + table.getPath() + "/" + k))
-            .append(value);
+                .computeIfAbsent(key, k -> new DoubleLogEntry(log, "/" + table.getPath() + "/" + k))
+                .append(value);
     }
 
     /** Logs a boolean value. */
     public void log(String key, boolean value) {
         table.getEntry(key).setBoolean(value);
         booleanEntries
-            .computeIfAbsent(key, k -> new BooleanLogEntry(log, "/" + table.getPath() + "/" + k))
-            .append(value);
+                .computeIfAbsent(key, k -> new BooleanLogEntry(log, "/" + table.getPath() + "/" + k))
+                .append(value);
     }
 
     /** Logs a string value. */
     public void log(String key, String value) {
         table.getEntry(key).setString(value);
         stringEntries
-            .computeIfAbsent(key, k -> new StringLogEntry(log, "/" + table.getPath() + "/" + k))
-            .append(value);
+                .computeIfAbsent(key, k -> new StringLogEntry(log, "/" + table.getPath() + "/" + k))
+                .append(value);
     }
 
     /** Logs a timestamped event visible on the AdvantageScope timeline. */
