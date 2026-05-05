@@ -1,0 +1,43 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+group = 'cryptocreeklib'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://frcmaven.wpi.edu/artifactory/release/' }
+}
+
+dependencies {
+    implementation 'edu.wpi.first.wpilibj:wpilibj2-java:2026.+'
+    implementation 'edu.wpi.first.wpiutil:wpiutil-java:2026.+'
+    implementation 'edu.wpi.first.wpimath:wpimath-java:2026.+'
+    implementation 'edu.wpi.first.ntcore:ntcore-java:2026.+'
+    implementation 'edu.wpi.first.hal:hal-java:2026.+'
+}
+
+java {
+    withJavadocJar()
+    withSourcesJar()
+}
+
+javadoc {
+    options.addStringOption('Xdoclint:none', '-quiet')
+    destinationDir = file("$buildDir/outputs/doc")
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url = layout.buildDirectory.dir('outputs/maven')
+        }
+    }
+}
