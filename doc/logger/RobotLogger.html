@@ -76,6 +76,22 @@ loadScripts(document, 'script');</script>
 <hr>
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">RobotLogger</span>
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>
+<div class="block">Logs robot data simultaneously to NetworkTables 4 and a .wpilog file.
+
+ <p>
+ Compatible with AdvantageScope, Glass, and Elastic dashboards.
+ The .wpilog file is automatically saved to USB if available,
+ otherwise falls back to roboRIO onboard storage.
+
+ <p>
+ Usage example:
+ 
+ <pre><code>
+ RobotLogger logger = new RobotLogger("Shooter");
+ logger.log("velocity", shooter.getVelocity());
+ logger.log("atSpeed", shooter.atSpeed());
+ logger.logEvent("Shot fired");
+ </code></pre></div>
 </section>
 <section class="summary">
 <ul class="summary-list">
@@ -88,7 +104,9 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-first">Constructor</div>
 <div class="table-header col-last">Description</div>
 <div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E(java.lang.String)" class="member-name-link">RobotLogger</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;subsystemName)</code></div>
-<div class="col-last even-row-color">&nbsp;</div>
+<div class="col-last even-row-color">
+<div class="block">Creates a logger for a subsystem.</div>
+</div>
 </div>
 </section>
 </li>
@@ -106,18 +124,26 @@ loadScripts(document, 'script');</script>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#log(java.lang.String,boolean)" class="member-name-link">log</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;key,
  boolean&nbsp;value)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Logs a boolean value to NetworkTables and the .wpilog file.</div>
+</div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#log(java.lang.String,double)" class="member-name-link">log</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;key,
  double&nbsp;value)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Logs a double value to NetworkTables and the .wpilog file.</div>
+</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#log(java.lang.String,java.lang.String)" class="member-name-link">log</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;key,
  <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;value)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Logs a string value to NetworkTables and the .wpilog file.</div>
+</div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#logEvent(java.lang.String)" class="member-name-link">logEvent</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;event)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Logs a timestamped event visible on the AdvantageScope timeline.</div>
+</div>
 </div>
 </div>
 </div>
@@ -139,6 +165,12 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="&lt;init&gt;(java.lang.String)">
 <h3>RobotLogger</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">RobotLogger</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;subsystemName)</span></div>
+<div class="block">Creates a logger for a subsystem.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>subsystemName</code> - the name of the subsystem, used as the NetworkTable
+                      name and log prefix (e.g. "Shooter", "Drivetrain")</dd>
+</dl>
 </section>
 </li>
 </ul>
@@ -154,6 +186,12 @@ loadScripts(document, 'script');</script>
 <h3>log</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">log</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;key,
  double&nbsp;value)</span></div>
+<div class="block">Logs a double value to NetworkTables and the .wpilog file.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>key</code> - the name of the value (e.g. "velocity", "temperature")</dd>
+<dd><code>value</code> - the double value to log</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -161,6 +199,12 @@ loadScripts(document, 'script');</script>
 <h3>log</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">log</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;key,
  boolean&nbsp;value)</span></div>
+<div class="block">Logs a boolean value to NetworkTables and the .wpilog file.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>key</code> - the name of the value (e.g. "atSpeed", "limitSwitch")</dd>
+<dd><code>value</code> - the boolean value to log</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -168,12 +212,25 @@ loadScripts(document, 'script');</script>
 <h3>log</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">log</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;key,
  <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;value)</span></div>
+<div class="block">Logs a string value to NetworkTables and the .wpilog file.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>key</code> - the name of the value (e.g. "state", "mode")</dd>
+<dd><code>value</code> - the string value to log</dd>
+</dl>
 </section>
 </li>
 <li>
 <section class="detail" id="logEvent(java.lang.String)">
 <h3>logEvent</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">logEvent</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;event)</span></div>
+<div class="block">Logs a timestamped event visible on the AdvantageScope timeline.
+ Useful for marking when actions occur, such as shooting or intaking.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>event</code> - a short description of the event (e.g. "Shot fired", "Intake
+              deployed")</dd>
+</dl>
 </section>
 </li>
 </ul>

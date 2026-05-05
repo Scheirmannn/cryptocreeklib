@@ -27,11 +27,11 @@
         {
           "name": "cryptocreeklib-1.0.0.jar",
           "url": "cryptocreeklib-1.0.0.jar",
-          "size": 2079,
-          "sha512": "f4bfabc81bbd7331ce6cf26e61ff0cc725d04679614fc842cc5efb71b52ba3b5f66a062ff3588dc929939c152e9a414f12f07ec3352e3ad0c4bc116e81a18649",
-          "sha256": "4cc40f82d82541f6f9dfd982336d5c7801dfbf5cdde15a1fe9127a7b3170d1a4",
-          "sha1": "b4e0f6345e5b3302c5f6f852625d2d8305524b85",
-          "md5": "f4b75b1a2b533216104f5703bc312d0f"
+          "size": 2083,
+          "sha512": "de379903ebeca9979c38e444ca25ca35a2f0f9a96271af4aef38a8ad8bf36aa3cfccb26149da9d94e774c1211f6f246467047a081d20f7f2e7fec6e1ce32a0f2",
+          "sha256": "4763fcd999c7c451d15c0c4dcb5f7700978661de6a8523c1b0cc40114d68d5e3",
+          "sha1": "478c7c7f091a8a76e8ca460a313cbdbe2e9a3599",
+          "md5": "67682029d478830e84b20afedf27b62a"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "cryptocreeklib-1.0.0.jar",
           "url": "cryptocreeklib-1.0.0.jar",
-          "size": 2079,
-          "sha512": "f4bfabc81bbd7331ce6cf26e61ff0cc725d04679614fc842cc5efb71b52ba3b5f66a062ff3588dc929939c152e9a414f12f07ec3352e3ad0c4bc116e81a18649",
-          "sha256": "4cc40f82d82541f6f9dfd982336d5c7801dfbf5cdde15a1fe9127a7b3170d1a4",
-          "sha1": "b4e0f6345e5b3302c5f6f852625d2d8305524b85",
-          "md5": "f4b75b1a2b533216104f5703bc312d0f"
+          "size": 2083,
+          "sha512": "de379903ebeca9979c38e444ca25ca35a2f0f9a96271af4aef38a8ad8bf36aa3cfccb26149da9d94e774c1211f6f246467047a081d20f7f2e7fec6e1ce32a0f2",
+          "sha256": "4763fcd999c7c451d15c0c4dcb5f7700978661de6a8523c1b0cc40114d68d5e3",
+          "sha1": "478c7c7f091a8a76e8ca460a313cbdbe2e9a3599",
+          "md5": "67682029d478830e84b20afedf27b62a"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "cryptocreeklib-1.0.0-javadoc.jar",
           "url": "cryptocreeklib-1.0.0-javadoc.jar",
-          "size": 79609,
-          "sha512": "8cb8132bd0f145c86943761895a14ac57256732217733be73644ee946a6a5e52ef025f96db1240d85c6d69276aa067f646bdce6a0e96c7a83b2b1d0e0908a519",
-          "sha256": "fe75014de330fb5aec509431202014d20116acbd284aa2099e3609cf58772181",
-          "sha1": "cded80115997925455f0ccf9d80f609e0593d9cd",
-          "md5": "1cbddbaa2e5d00035d87e2f252d037ad"
+          "size": 80444,
+          "sha512": "d26b9eb8a69a90c8f0a03f0d11f3446e066ca52f20cbdbf1f55026c8b1bf7170900e9e1d91a1fd0a5087749365f02581a0fb482f8e45dff1eebfb47b165a7796",
+          "sha256": "e7bc8b481cd0154f46213f7f609f6d8083bde3f830a1a865b835da4212479620",
+          "sha1": "60e1a8938ca4d84dd3fe1fe3733637f97a361fa6",
+          "md5": "22229520c4142ddef61ef8e84b27da06"
         }
       ]
     },
@@ -125,11 +125,11 @@
         {
           "name": "cryptocreeklib-1.0.0-sources.jar",
           "url": "cryptocreeklib-1.0.0-sources.jar",
-          "size": 984,
-          "sha512": "aea47b373b9df3864854031afd0aaaf38993e779b8b22079774a32ffebb03b162d651a7ddca384896d4e88f24ef19d6f25cb6d9c756b5394664d59f1a6ae00b2",
-          "sha256": "84ba4f55fc9b5c7058c100307ef73ea1d94da963069546a1bcdf06108f72d683",
-          "sha1": "09415f918dfaa697406fab295e93401601023d71",
-          "md5": "6b1f78a64000e99fa06aaefbfaec0029"
+          "size": 1531,
+          "sha512": "27a112d12832f6ce506a92b48d63b1b7996d86d983da1b94fc7bcc14c79f62d5c5ec2474093c431107636df0a3bc504e52d83793773d34fd972da637ce9f686f",
+          "sha256": "d452bb6e82c50340f55cba28a40bc9aeec8c189c9432f42a385b568d0b281aa1",
+          "sha1": "141d873795f3e6d7baa0d83e4d048e9b06d3dacf",
+          "md5": "3353adce54eaa29657e833f6622eda81"
         }
       ]
     }
