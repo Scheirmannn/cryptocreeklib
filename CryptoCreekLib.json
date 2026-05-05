@@ -7,7 +7,7 @@
     "mavenUrls": [
         "https://scheirmannn.github.io/cryptocreeklib/maven/"
     ],
-    "jsonUrl": "https://raw.githubusercontent.com/Scheirmannn/cryptocreeklib/main/CryptoCreekLib.json",
+    "jsonUrl": "https://raw.githubusercontent.com/Scheirmannn/cryptocreeklib/master/CryptoCreekLib.json",
     "javaDependencies": [
         {
             "groupId": "cryptocreeklib",
