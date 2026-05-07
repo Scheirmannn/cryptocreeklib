@@ -1,4 +1,4 @@
-package logger;
+package Logger;
 
 import edu.wpi.first.networktables.NetworkTable;
 import edu.wpi.first.networktables.NetworkTableInstance;
@@ -56,7 +56,7 @@ public class RobotLogger {
      * @param key   the name of the value (e.g. "velocity", "temperature")
      * @param value the double value to log
      */
-    public void log(String key, double value) {
+    public void logDouble(String key, double value) {
         table.getEntry(key).setDouble(value);
         doubleEntries
                 .computeIfAbsent(key, k -> new DoubleLogEntry(log, "/" + subsystemName + "/" + k))
@@ -69,7 +69,7 @@ public class RobotLogger {
      * @param key   the name of the value (e.g. "atSpeed", "limitSwitch")
      * @param value the boolean value to log
      */
-    public void log(String key, boolean value) {
+    public void logBool(String key, boolean value) {
         table.getEntry(key).setBoolean(value);
         booleanEntries
                 .computeIfAbsent(key, k -> new BooleanLogEntry(log, "/" + subsystemName + "/" + k))
@@ -82,7 +82,7 @@ public class RobotLogger {
      * @param key   the name of the value (e.g. "state", "mode")
      * @param value the string value to log
      */
-    public void log(String key, String value) {
+    public void logStr(String key, String value) {
         table.getEntry(key).setString(value);
         stringEntries
                 .computeIfAbsent(key, k -> new StringLogEntry(log, "/" + subsystemName + "/" + k))
