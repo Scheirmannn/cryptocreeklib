@@ -3,7 +3,7 @@
   "component": {
     "group": "cryptocreeklib",
     "module": "cryptocreeklib",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "cryptocreeklib-1.0.0.jar",
-          "url": "cryptocreeklib-1.0.0.jar",
-          "size": 261,
-          "sha512": "3d91c4dd2e5ebc7253a3da1e7324c50b586da9b78fd1d434059e73ed74027e697b4558bcaf5abe5ef673862558dc22ece00390d38542772acca57a47f9c0c124",
-          "sha256": "529b9d3a5d8b2ef3a045cd1627b77630b0ffdaff67aeed933c39e9a7d0d2eb2f",
-          "sha1": "895c6c717df02216b99d0edd94dc36253e900d3e",
-          "md5": "52669546e33b43758ed6f2595a0d4e64"
+          "name": "cryptocreeklib-1.0.1.jar",
+          "url": "cryptocreeklib-1.0.1.jar",
+          "size": 2108,
+          "sha512": "5d8a9b54fc9934110b457d97477cd279d33e2bb22d9339d144039ccdf2519766bb251a6178e84d53edf493ccff2ee7b9747dad8a07d5c19961c299e9d4b60902",
+          "sha256": "3098bd10c03c7d6f0ce6b3525f6ed966507ed1d2586d26443f8097013b0b0413",
+          "sha1": "44020a01045c20c330b4bfd73ab6c7e7e741130e",
+          "md5": "0cc4de4aba418342b71b348dc0537df8"
         }
       ]
     },
@@ -83,13 +83,13 @@
       ],
       "files": [
         {
-          "name": "cryptocreeklib-1.0.0.jar",
-          "url": "cryptocreeklib-1.0.0.jar",
-          "size": 261,
-          "sha512": "3d91c4dd2e5ebc7253a3da1e7324c50b586da9b78fd1d434059e73ed74027e697b4558bcaf5abe5ef673862558dc22ece00390d38542772acca57a47f9c0c124",
-          "sha256": "529b9d3a5d8b2ef3a045cd1627b77630b0ffdaff67aeed933c39e9a7d0d2eb2f",
-          "sha1": "895c6c717df02216b99d0edd94dc36253e900d3e",
-          "md5": "52669546e33b43758ed6f2595a0d4e64"
+          "name": "cryptocreeklib-1.0.1.jar",
+          "url": "cryptocreeklib-1.0.1.jar",
+          "size": 2108,
+          "sha512": "5d8a9b54fc9934110b457d97477cd279d33e2bb22d9339d144039ccdf2519766bb251a6178e84d53edf493ccff2ee7b9747dad8a07d5c19961c299e9d4b60902",
+          "sha256": "3098bd10c03c7d6f0ce6b3525f6ed966507ed1d2586d26443f8097013b0b0413",
+          "sha1": "44020a01045c20c330b4bfd73ab6c7e7e741130e",
+          "md5": "0cc4de4aba418342b71b348dc0537df8"
         }
       ]
     },
@@ -103,13 +103,13 @@
       },
       "files": [
         {
-          "name": "cryptocreeklib-1.0.0-javadoc.jar",
-          "url": "cryptocreeklib-1.0.0-javadoc.jar",
-          "size": 261,
-          "sha512": "3d91c4dd2e5ebc7253a3da1e7324c50b586da9b78fd1d434059e73ed74027e697b4558bcaf5abe5ef673862558dc22ece00390d38542772acca57a47f9c0c124",
-          "sha256": "529b9d3a5d8b2ef3a045cd1627b77630b0ffdaff67aeed933c39e9a7d0d2eb2f",
-          "sha1": "895c6c717df02216b99d0edd94dc36253e900d3e",
-          "md5": "52669546e33b43758ed6f2595a0d4e64"
+          "name": "cryptocreeklib-1.0.1-javadoc.jar",
+          "url": "cryptocreeklib-1.0.1-javadoc.jar",
+          "size": 80513,
+          "sha512": "7ad074d6e0845b5f3fd715d952ae2a1660337eb21ac8b224320139c3d358aeda4e0dbe03399fe29de0c3f9aeb011ea8b882a07d0039125fd3b64d980d9c70047",
+          "sha256": "07ebd898dae01f17f63f64d36ca6d201380b0891fd0da7dde6acf8f872b7af50",
+          "sha1": "8adf4d8a11a56955b4760dcb65ddfe79f6fd7eb4",
+          "md5": "51cba53c00b23d1398c29bf00b31af80"
         }
       ]
     },
@@ -123,13 +123,13 @@
       },
       "files": [
         {
-          "name": "cryptocreeklib-1.0.0-sources.jar",
-          "url": "cryptocreeklib-1.0.0-sources.jar",
-          "size": 261,
-          "sha512": "3d91c4dd2e5ebc7253a3da1e7324c50b586da9b78fd1d434059e73ed74027e697b4558bcaf5abe5ef673862558dc22ece00390d38542772acca57a47f9c0c124",
-          "sha256": "529b9d3a5d8b2ef3a045cd1627b77630b0ffdaff67aeed933c39e9a7d0d2eb2f",
-          "sha1": "895c6c717df02216b99d0edd94dc36253e900d3e",
-          "md5": "52669546e33b43758ed6f2595a0d4e64"
+          "name": "cryptocreeklib-1.0.1-sources.jar",
+          "url": "cryptocreeklib-1.0.1-sources.jar",
+          "size": 1540,
+          "sha512": "1bc28c4656b826a9619c7cb025ad13148a85194eb8ce0571e7bf45fd89dcd3343bc4aad10eb5814eff48bb14e32cf5bd3a50fe29384b20a351bf927ca21e6b04",
+          "sha256": "516fad5aaf659d334f64be9a8b3a17fe8bee903abae02709d0b423c667500529",
+          "sha1": "c5ff869fb4a9821368da5e1391550b5aed7a912e",
+          "md5": "edffb3a2cc9f1963e8c5ce8e6164edf5"
         }
       ]
     }
